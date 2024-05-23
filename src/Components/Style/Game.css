@@ -1,0 +1,17 @@
+.playerImg{
+    height: 80px;
+    width: 80px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
