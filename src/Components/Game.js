@@ -24,7 +24,7 @@ export default function Game(){
     useEffect(() => {
         const intervalID = setInterval(() => {
             setImages(Array(9).fill(null).map(() => FrensData[randomNumberInRange(0, FrensData.length - 1)].image));
-        }, 900);
+        }, 800);
 
         return () => clearInterval(intervalID);
     }, []);
